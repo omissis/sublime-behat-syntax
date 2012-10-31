@@ -9,7 +9,7 @@
     <key>firstLineMatch</key>
     <string>^Feature:(.+)$</string>
     <key>foldingStartMarker</key>
-    <string>(Feature\:|Background\:|Scenario\:)</string>
+    <string>(Feature\:|Background\:|Scenario Outline\:|Scenario\:|Examples\:)</string>
     <key>foldingStopMarker</key>
     <string>^(\r\n|\n)$</string>
     <key>keyEquivalent</key>
@@ -20,13 +20,13 @@
     <array>
         <dict>
             <key>match</key>
-            <string>^\s+\b(And|Given|Then|When)\b</string>
+            <string>^\s+\b(And|Given|Then|When|But)\b</string>
             <key>name</key>
             <string>keyword.control.elements.behat</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>(Feature\:|Background\:|Scenario\:)</string>
+            <string>(Feature\:|Background\:|Scenario Outline\:|Scenario\:|Examples\:)</string>
             <key>name</key>
             <string>keyword.control.feature.behat</string>
         </dict>
