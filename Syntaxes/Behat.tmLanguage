@@ -52,6 +52,26 @@
     </array>
     <key>repository</key>
     <dict>
+        <key>comment</key>
+        <dict>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>captures</key>
+                    <dict>
+                        <key>1</key>
+                        <dict>
+                            <key>name</key>
+                            <string>punctuation.definition.comment.behat</string>
+                        </dict>
+                    </dict>
+                    <key>match</key>
+                    <string>(?&lt;!\S)(#)(?!\{).*$\n?</string>
+                    <key>name</key>
+                    <string>comment.line.number-sign.behat</string>
+                </dict>
+            </array>
+        </dict>
         <key>regex-double-quoted</key>
         <dict>
             <key>begin</key>
@@ -194,6 +214,10 @@
                 <dict>
                     <key>include</key>
                     <string>#string-double-quoted</string>
+                </dict>
+                <dict>
+                    <key>include</key>
+                    <string>#comment</string>
                 </dict>
             </array>
         </dict>
