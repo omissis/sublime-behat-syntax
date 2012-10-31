@@ -196,6 +196,78 @@
                 </dict>
             </array>
         </dict>
+        <key>string-examples</key>
+        <dict>
+            <key>begin</key>
+            <string>(\| )</string>
+            <key>beginCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.string.begin.behat</string>
+                </dict>
+            </dict>
+            <key>comment</key>
+            <string>This contentName is just to allow the usage of “select scope” to select the string contents first, then the string with quotes</string>
+            <key>contentName</key>
+            <string>meta.string-contents.examples.behat</string>
+            <key>end</key>
+            <string>( \|)</string>
+            <key>endCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.string.end.behat</string>
+                </dict>
+            </dict>
+            <key>name</key>
+            <string>string.examples.behat</string>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>include</key>
+                    <string>#interpolation</string>
+                </dict>
+            </array>
+        </dict>
+        <key>string-placeholders</key>
+        <dict>
+            <key>begin</key>
+            <string>&lt;</string>
+            <key>beginCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.string.begin.behat</string>
+                </dict>
+            </dict>
+            <key>comment</key>
+            <string>This contentName is just to allow the usage of “select scope” to select the string contents first, then the string with quotes</string>
+            <key>contentName</key>
+            <string>meta.string-contents.placeholders.behat</string>
+            <key>end</key>
+            <string>&gt;</string>
+            <key>endCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.string.end.behat</string>
+                </dict>
+            </dict>
+            <key>name</key>
+            <string>string.placeholders.behat</string>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>include</key>
+                    <string>#interpolation</string>
+                </dict>
+            </array>
+        </dict>
         <key>numbers</key>
         <dict>
             <key>match</key>
@@ -212,6 +284,13 @@
                     <string>#regex-double-quoted</string>
                 </dict>
                 <dict>
+                    <key>include</key>
+                    <string>#string-examples</string>
+                </dict>
+                <dict>
+                    <key>include</key>
+                    <string>#string-placeholders</string>
+                </dict>                <dict>
                     <key>include</key>
                     <string>#string-double-quoted</string>
                 </dict>
