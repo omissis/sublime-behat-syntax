@@ -1,0 +1,58 @@
+{
+    "author": "Chris Brand, Claudio Beatrice",
+    "link": "http://www.cainsvault.com, http://silent-voice.org", 
+    "name": "Behat",
+    "scopeName": "feature.behat",
+    "fileTypes": ["feature"],
+    "firstLineMatch": "^Feature:(.+)$",
+    "foldingStartMarker": "(Feature\\:|Background\\:|Scenario Outline\\:|Scenario\\:|Examples\\:)",
+    "foldingStopMarker": "^(\\r\\n|\\n)$",
+    "keyEquivalent": "^~B",
+    "patterns": [
+        { 
+            "match": "\\s*(Scenario\\:|Feature\\:|Scenario Outline\\:|Background\\:|Examples\\:)",
+            "name": "keyword.behat",
+            "comment": "Feature keywords"
+        },
+        { 
+            "match": "^\\s+\\b(And|Given|Then|When|But)\\b",
+            "name": "entity.name.class.behat",
+            "comment": "Step keywords"
+        },
+        {
+          "comment": "Behat scenario tags",
+          "name": "support.class.tag.behat",
+          "match": "(@[A-Za-z0-9-]+)"
+        },
+        {
+          "comment": "Comment color",
+          "name": "comment.line.number-sign.behat",
+          "begin": "#",
+          "end": "\\n"
+        },
+        {
+          "comment": "Double Qoutes",
+          "name": "string.double.qoute.behat",
+          "begin": "\"",
+          "end": "\""
+        },
+        {
+          "comment": "Variables. ex <step>",
+          "name": "string.interpolated.behat",
+          "begin": "<",
+          "end": ">"
+        },
+        {
+          "comment": "Code highlight for Examples and Table Nodes",
+          "name": "keyword.outline.behat",
+          "begin": "\\| ",
+          "end": " \\|\\n"
+        },
+        {
+          "comment": "Highlighting for numbers",
+          "name": "constant.numeric.behat",
+          "match": "\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)\\b"
+        }
+    ],
+    "uuid": "79f77c72-d2d8-44cc-b89c-5620c67c3885"
+}
