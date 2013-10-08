@@ -84,7 +84,7 @@
 			<key>end</key>
 			<string> \|\n</string>
 			<key>name</key>
-			<string>keyword.outline.behat</string>
+			<string>comment.node.behat</string>
 		</dict>
 		<dict>
 			<key>comment</key>
