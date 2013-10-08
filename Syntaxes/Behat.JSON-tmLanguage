@@ -1,6 +1,6 @@
 {
     "author": "Chris Brand, Claudio Beatrice",
-    "link": "http://www.cainsvault.com, http://silent-voice.org", 
+    "link": "http://www.cainsvault.com, http://silent-voice.org",
     "name": "Behat",
     "scopeName": "feature.behat",
     "fileTypes": ["feature"],
@@ -9,12 +9,12 @@
     "foldingStopMarker": "^(\\r\\n|\\n)$",
     "keyEquivalent": "^~B",
     "patterns": [
-        { 
+        {
             "match": "\\s*(Scenario\\:|Feature\\:|Scenario Outline\\:|Background\\:|Examples\\:)",
             "name": "keyword.behat",
             "comment": "Feature keywords"
         },
-        { 
+        {
             "match": "^\\s+\\b(And|Given|Then|When|But)\\b",
             "name": "entity.name.class.behat",
             "comment": "Step keywords"
@@ -44,7 +44,7 @@
         },
         {
           "comment": "Code highlight for Examples and Table Nodes",
-          "name": "keyword.outline.behat",
+          "name": "comment.node.behat",
           "begin": "\\| ",
           "end": " \\|\\n"
         },
