@@ -57,14 +57,12 @@
 			<string>comment.line.number-sign.behat</string>
 		</dict>
 		<dict>
-			<key>begin</key>
-			<string>"</string>
 			<key>comment</key>
-			<string>Double Qoutes</string>
-			<key>end</key>
-			<string>"</string>
+			<string>Quoted strings</string>
+			<key>match</key>
+			<string>(\".+\")</string>
 			<key>name</key>
-			<string>string.double.qoute.behat</string>
+			<string>string.double.quote.behat</string>
 		</dict>
 		<dict>
 			<key>begin</key>
