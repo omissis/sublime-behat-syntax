@@ -31,10 +31,9 @@
           "end": "\\n"
         },
         {
-          "comment": "Double Qoutes",
-          "name": "string.double.qoute.behat",
-          "begin": "\"",
-          "end": "\""
+          "comment": "Double Quotes",
+          "name": "string.double.quote.behat",
+          "match": "\".+\""
         },
         {
           "comment": "Variables. ex <step>",
