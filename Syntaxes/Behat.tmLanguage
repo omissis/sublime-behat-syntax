@@ -57,10 +57,20 @@
 			<string>comment.line.number-sign.behat</string>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>"""\n</string>
 			<key>comment</key>
-			<string>Quoted strings</string>
+			<string>Code highlight for PyStringNode</string>
+			<key>end</key>
+			<string>"""\n</string>
+			<key>name</key>
+			<string>comment.node.behat</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Double Quotes</string>
 			<key>match</key>
-			<string>(\".+\")</string>
+			<string>".+"</string>
 			<key>name</key>
 			<string>string.double.quote.behat</string>
 		</dict>
