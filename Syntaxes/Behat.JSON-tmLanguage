@@ -31,6 +31,12 @@
           "end": "\\n"
         },
         {
+          "comment": "Code highlight for PyStringNode",
+          "name": "comment.node.behat",
+          "begin": "\"\"\"\\n",
+          "end": "\"\"\"\\n"
+        },
+        {
           "comment": "Double Quotes",
           "name": "string.double.quote.behat",
           "match": "\".+\""
