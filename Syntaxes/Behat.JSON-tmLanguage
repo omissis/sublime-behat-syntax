@@ -39,7 +39,7 @@
         {
           "comment": "Double Quotes",
           "name": "string.double.quote.behat",
-          "match": "\".+\""
+          "match": "\"(?:[^\"]|\\\\\")*\""
         },
         {
           "comment": "Variables. ex <step>",
