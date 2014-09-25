@@ -70,7 +70,7 @@
 			<key>comment</key>
 			<string>Double Quotes</string>
 			<key>match</key>
-			<string>".+"</string>
+			<string>"(?:[^"]|\\")*"</string>
 			<key>name</key>
 			<string>string.double.quote.behat</string>
 		</dict>
