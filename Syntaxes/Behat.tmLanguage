@@ -36,7 +36,7 @@
 			<key>match</key>
 			<string>^\s+\b(And|Given|Then|When|But)\b</string>
 			<key>name</key>
-			<string>entity.name.class.behat</string>
+			<string>entity.name.function.behat</string>
 		</dict>
 		<dict>
 			<key>comment</key>

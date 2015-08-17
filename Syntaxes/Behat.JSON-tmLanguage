@@ -16,7 +16,7 @@
         },
         {
             "match": "^\\s+\\b(And|Given|Then|When|But)\\b",
-            "name": "entity.name.class.behat",
+            "name": "entity.name.function.behat",
             "comment": "Step keywords"
         },
         {
