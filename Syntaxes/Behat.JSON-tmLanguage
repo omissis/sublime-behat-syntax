@@ -22,7 +22,7 @@
         {
           "comment": "Behat scenario tags",
           "name": "support.class.tag.behat",
-          "match": "(@[A-Za-z0-9-]+)"
+          "match": "(@[A-Za-z0-9_-]+)"
         },
         {
           "comment": "Comment color",
@@ -39,7 +39,7 @@
         {
           "comment": "Double Quotes",
           "name": "string.double.quote.behat",
-          "match": "\".+\""
+          "match": "\"(?:[^\"]|\\\\\")*\""
         },
         {
           "comment": "Variables. ex <step>",

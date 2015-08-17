@@ -42,7 +42,7 @@
 			<key>comment</key>
 			<string>Behat scenario tags</string>
 			<key>match</key>
-			<string>(@[A-Za-z0-9-]+)</string>
+			<string>(@[A-Za-z0-9_-]+)</string>
 			<key>name</key>
 			<string>support.class.tag.behat</string>
 		</dict>
@@ -70,7 +70,7 @@
 			<key>comment</key>
 			<string>Double Quotes</string>
 			<key>match</key>
-			<string>".+"</string>
+			<string>"(?:[^"]|\\")*"</string>
 			<key>name</key>
 			<string>string.double.quote.behat</string>
 		</dict>
