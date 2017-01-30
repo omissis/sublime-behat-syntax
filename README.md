@@ -2,7 +2,7 @@
 
 ## Installation
 
-Clone the repo in your personal SublimeText[2|3]/Packages folder.
+Use Package Control or Clone the repo in your personal Sublime Tex t3 Packages folder.
 
 ## Basic usage
 
