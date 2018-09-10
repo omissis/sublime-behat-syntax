@@ -1,4 +1,4 @@
-#Sublime Behat Syntax Highlight
+# Sublime Behat Syntax Highlight
 
 ## Installation
 
